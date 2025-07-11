@@ -7,247 +7,273 @@
 .inter-uniquifier-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-   font-style: normal;
+  font-style: normal;
 }
-body{
-    background-color: aquamarine;
-    margin: 0 auto;
+body {
+  background-color: rgb(243, 243, 243);
+  margin: 0 auto;
 }
-
 
 /* header Styles */
-nav{
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin: 0px 150px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 150px;
 }
-.nav-title{
-font-size: 68px;
-font-weight: 900;
+.nav-title {
+  font-size: 68px;
+  font-weight: 900;
 }
 
-.header{
-    background-image: url("Assets/Hero-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 152px 267.5px;  
+.header {
+  background-image: url("Assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 152px 267.5px;
 }
 /* shared styles */
-.dark-one{
-    color:#4E47FF;
+.dark-one {
+  color: #4e47ff;
 }
-.btn-primary{
-    background-color: #4E47FF;
-    color: white;
-    padding: 12px 36px;
-    font-size: 32px;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
- 
+.btn-primary {
+  background-color: #4e47ff;
+  color: white;
+  padding: 12px 36px;
+  font-size: 32px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
 }
-.btn-primary:hover{
-   background-color:coral;
-   font-size:40px;
+.btn-primary:hover {
+  background-color: coral;
+  font-size: 40px;
 }
-.text-center{
-   text-align: center;
+.text-center {
+  text-align: center;
 }
 
 /* banner styles */
 
-.banner-content{
-    font-size: 65px;
-    font-weight: bold;
-    margin: 152px 267.5px;  
-    text-align: center; 
-         
+.banner-content {
+  font-size: 65px;
+  font-weight: bold;
+  margin: 152px 267.5px;
+  text-align: center;
 }
 /* form styles */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
-    padding-top: 120px;
-    padding-bottom: 120px;
-   }
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
-.action{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-
+.action {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
-.action-content{
-width: 450px;
+.action-content {
+  width: 450px;
 }
-.action-title{
-    font-size: 42px;
-    font-weight: bold;
-    color: #252432;
-    text-shadow: 2px 2px black;
-    
-       
-    }
-.action-description{
-    font-size: 24px;
-    color: #252432;
+.action-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+  text-shadow: 2px 2px black;
 }
-img{
-        border-radius: 48px;
+.action-description {
+  font-size: 24px;
+  color: #252432;
+}
+img {
+  border-radius: 48px;
 }
 /* production style */
 
-.productive-main{
-    margin: 0 auto;
-    background-color: #d2d1d6;
-    padding: 15px;
-    margin-top: 50px;
-    border-radius: 20px;
-  }
-.pr-box{
-    display: flex;
-    gap: 158px;
-    justify-content: center;
-    color:#4E47FF;
-    text-align: center;
-    
-    
+.productive-main {
+  margin: 0 auto;
+  background-color: #f2eded;
+  padding: 15px;
+  margin-top: 50px;
+  border-radius: 20px;
 }
-.productive-titles{
-    font-size: 38px;
-    font-weight: 800;
-    color: #271f9b;
-    text-align: center;
-    margin-bottom: 0px;
-    
+.pr-box {
+  display: flex;
+  gap: 158px;
+  justify-content: center;
+  color: #4e47ff;
+  text-align: center;
+}
+.productive-titles {
+  font-size: 38px;
+  font-weight: 800;
+  color: #271f9b;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
-.productive-title{
-    font-size: 80px;
-    font-weight: 900;
-    margin-bottom: 0px;
+.productive-title {
+  font-size: 80px;
+  font-weight: 900;
+  margin-bottom: 0px;
 }
-.productive-description{
-    font-size: 20px;
-    font-weight: 600; 
-    color: #000000;
+.productive-description {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
 }
-.productive-content{
-    box-color:red;
+.productive-content {
+  box-color: red;
 }
 
 /* users style */
-.users-stars{
-    display: flex;
-    
-   }
-section ul{
-    list-style: none;
+.users-container {
+  /* background-color: rgb(255, 0, 0); */
+  width: 1140px;
 }
-
-.user-interface{
-    display: flex;
-   }
-.users-title{
-    font-size: 25px;
-    margin-bottom: 0px;
+.section-container {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
 }
-.user-description{
-    font-size: 10px;
-
+.reviewer-box {
+  width: 360px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #efefef;
+  box-shadow: 5px 5px 10px black;
+}
+.user-image {
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+}
+.user-image img {
+  margin: 0;
+  width: 10px;
+}
+.user-title {
+  font-size: 42px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 0;
+}
+.user-profile {
+  margin: 0;
+}
+.user-description {
+  font-size: 10px;
+  margin-top: 0px;
+}
+.user-name {
+  font-size: 15px;
+  color: #757575;
+  margin-bottom: 0px;
+}
+.user-date {
+  font-size: 10px;
+  color: #757575;
+}
+.user-alignment {
+  display: flex;
+  justify-content: space-between;
+}
+.user-alignment img {
+  width: 20%;
+}
+.user-alignment div {
+  width: 70%;
 }
 /* webflow styles */
-.webflow-section{
-    margin: 0 auto;
-    background-color: white;
-    text-align: center;
-    padding: 50px;
-    border-radius: 20px;
-    margin-top: 100px;
-    
+.webflow-section {
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 100px;
 }
 
-.webflow-title{
-    font-size: 50px;
-    font-weight: bold;
-    margin-bottom: 0px;
-    }
-.webflow-description{
-    font-size: 12px;
-    color: #000000;
-    padding: 10px;
+.webflow-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 0px;
 }
-.space-btn{
-    padding-bottom: 20px;
+.webflow-description {
+  font-size: 12px;
+  color: #000000;
+  padding: 10px;
+}
+.space-btn {
+  padding-bottom: 20px;
 }
 
 /* form styles */
-.form-design{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin:100px 0 ;
+.form-design {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
 }
-.form-title{
-    width: 55%;
-    font-size: 100px;
-    font-weight: 900;
-    }
-form{
-width: 40%;
+.form-title {
+  width: 55%;
+  font-size: 100px;
+  font-weight: 900;
 }
-form input, form label{
-    display: block;
-    margin-bottom: 10px;
-    width: 93%;
+form {
+  width: 40%;
 }
-input[type="text"], input[type="email"]{
-    height: 60px;
-    padding-left: 20px;
+form input,
+form label {
+  display: block;
+  margin-bottom: 10px;
+  width: 93%;
 }
-form textarea{
-    padding-left: 20px;
-    padding-top: 10px;
-    resize: none;
-    width: 93%;
-    display: block;
-    margin-bottom: 10px;
+input[type="text"],
+input[type="email"] {
+  height: 60px;
+  padding-left: 20px;
 }
-form button{
-    width: 100%;
-    
+form textarea {
+  padding-left: 20px;
+  padding-top: 10px;
+  resize: none;
+  width: 93%;
+  display: block;
+  margin-bottom: 10px;
+}
+form button {
+  width: 100%;
 }
 /* footer style */
-footer{
-     margin:0 auto;
-    text-align: center;
-    background-color: white;
-    padding: 150px;
+footer {
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  padding: 150px;
 }
-.last-title{
-    color: #4E47FF;
-    font-size: 100px;
-    font-weight: 900;
-    margin-bottom: 0px;
-
+.last-title {
+  color: #4e47ff;
+  font-size: 100px;
+  font-weight: 900;
+  margin-bottom: 0px;
 }
-.last-description{
-    color: #8987A1;
-    font-size: 12px;
-    
+.last-description {
+  color: #8987a1;
+  font-size: 12px;
 }
-.last-end{
-    display: flex;
-    gap:48px;
-    justify-content: center;
-    
-    }
-footer a{
-    text-decoration: none;
-    color: #8987A1;
+.last-end {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
 }
-footer a:hover{
-    color: rgb(252, 2, 52);
-    font-weight: 800;
+footer a {
+  text-decoration: none;
+  color: #8987a1;
+}
+footer a:hover {
+  color: rgb(252, 2, 52);
+  font-weight: 800;
 }
